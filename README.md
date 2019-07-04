@@ -7,7 +7,7 @@ Allows you to run runscope tests in azure pipelines and wait for success ou fail
 ## Usage
 Add a new task, select **Runscope Integration Test** from the **Test** category and configure it as needed.
 
-![Runscope Integration Test Parameter](images/ruscope-parameters.png)
+![Runscope Integration Test Parameter](images/runscope-parameters.png)
 
 Parameters include:
 - **Trigger URL**: Trigger URL from Bucket or individual test case. This URL starts a new test execution. [Click here to read more](https://www.runscope.com/docs/api-testing/integrations/)
