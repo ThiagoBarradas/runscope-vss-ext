@@ -1,0 +1,59 @@
+{
+    "manifestVersion": 1,
+    "id": "runscopetest",
+    "publisher": "ThiagoBarradas",
+    "version": "1.0.13",
+    "name": "Runscope Integration Test",
+    "description": "Allows you to run runscope tests in azure pipelines",
+    "public": true,
+    "categories": [
+        "Azure Pipelines"
+    ],
+    "tags": [
+        "test",
+        "tests",
+        "integration",
+        "smoke",
+        "runscope",
+        "api",
+        "release",
+        "build"
+    ],
+    "links": {
+        "support": { "uri": "https://github.com/ThiagoBarradas/runscope-vss-ext" }
+    },
+    "icons": {
+        "default": "images/extension-icon.png"
+    },
+    "targets": [
+        { "id": "Microsoft.VisualStudio.Services" }
+    ],
+    "content": {
+        "details": { "path": "README.md" },
+        "license": { "path": "LICENSE" }
+    },
+    "contributions": [
+        {
+            "id": "runscopetest-task",
+            "type": "ms.vss-distributed-task.task",
+            "targets": [
+                "ms.vss-distributed-task.tasks"
+            ],
+            "properties": { "name": "task" }
+        }
+    ],
+    "files": [
+        { 
+            "path": "task" 
+        },
+        { 
+            "path": "images", 
+            "addressable": true 
+        },
+        { 
+            "path": "node_modules", 
+            "addressable": true,
+            "packagePath": "task/node_modules" 
+        }
+    ]
+}
