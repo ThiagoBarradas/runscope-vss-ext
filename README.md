@@ -11,7 +11,7 @@ Add a new task, select **Runscope Integration Test** from the **Test** category 
 
 Parameters include:
 - **Trigger URL**: Trigger URL from Bucket or individual test case. This URL starts a new test execution. [Click here to read more](https://www.runscope.com/docs/api-testing/integrations/)
-- **Access Token**: API Key to authenticate in Runscope API and make pulling to wait results. [Click here to read more](https://www.runscope.com/docs/api-testing/circleci/#api-key)
+- **API Key**: API Key to authenticate in Runscope API and make pulling to wait results. [Click here to read more](https://www.runscope.com/docs/api-testing/circleci/#api-key)
 
 ## Release notes
 

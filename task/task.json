@@ -20,8 +20,8 @@
     ],
     "version": {
       "Major": 1,
-      "Minor": 0,
-      "Patch": 13
+      "Minor": 1,
+      "Patch": 0
     },
     "inputs": [
       {
@@ -35,10 +35,10 @@
       {
         "name": "accessToken",
         "type": "string",
-        "label": "Access Token",
+        "label": "API Key",
         "defaultValue": "",
         "required": true,
-        "helpMarkDown": "[Runscope API Access Token](https://www.runscope.com/docs/api-testing/circleci/#api-key)"
+        "helpMarkDown": "[Runscope API Key(https://www.runscope.com/docs/api-testing/circleci/#api-key)"
       }
     ],
     "execution": {
