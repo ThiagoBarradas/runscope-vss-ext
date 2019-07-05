@@ -2,7 +2,7 @@
     "manifestVersion": 1,
     "id": "runscopetest",
     "publisher": "ThiagoBarradas",
-    "version": "1.1.1",
+    "version": "1.1.2s",
     "name": "Runscope Integration Test",
     "description": "Allows you to run runscope tests in azure pipelines",
     "public": true,
