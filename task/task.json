@@ -1,6 +1,6 @@
 {
     "id": "a07f3415-0818-4108-b90c-d0255f37b7d2",
-    "name": "test",
+    "name": "runscopetest",
     "friendlyName": "Runscope Integration Test",
     "description": "Allows you to run runscope tests in azure pipelines waiting all tests",
     "helpMarkDown": "[More Information](https://github.com/ThiagoBarradas/runscope-vss-ext)",
