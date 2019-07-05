@@ -1,10 +1,20 @@
 {
   "name": "runscope-vs-ext",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Runscope Integration Test for Azure Devops",
   "main": "index.js",
   "scripts": {
+    "build": "tsc",
+    "publish": "tfx extension create",
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "homepage": "https://github.com/ThiagoBarradas/runscope-vss-ext#readme",
+  "bugs": {
+    "url": "https://github.com/ThiagoBarradas/runscope-vss-ext/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ThiagoBarradas/runscope-vss-ext.git"
   },
   "keywords": [
     "azure",
@@ -19,7 +29,7 @@
     "azure-pipelines-task-lib": "^2.8.0"
   },
   "devDependencies": {
-    "@types/node": "^8.5.1",
-    "@types/q": "^1.0.6"
+    "@types/node": "^12.0.8",
+    "@types/q": "^1.5.2"
   }
 }

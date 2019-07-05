@@ -15,7 +15,7 @@ Parameters include:
 
 ## Release notes
 
-**New in 1.1.0**
+**New in 1.1.1**
 - First version with basic integration test flow;
 - Execute bucket or single test case;
 - Wait results to continue tasks (success) or abort (fails);
