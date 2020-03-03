@@ -10,8 +10,8 @@ async function run() {
         var accessToken: string = tl.getInput('accessToken', true);
 
         // install tools
-        await tl.exec('sudo', ["apt", "install", "python", "-y"]);
-        await tl.exec('sudo', ["apt", "install", "python-pip", "-y"]);
+        await tl.exec('sudo', ["apt-get", "install", "python", "-y"]);
+        await tl.exec('sudo', ["apt-get", "install", "python-pip", "-y"]);
         await tl.exec('pip', ["install", "-r", runscopeRequirements]);
         await tl.exec('wget', ["-O", "app.py", runscopeAppPython]);
         
