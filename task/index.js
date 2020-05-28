@@ -10,8 +10,8 @@ var __awaiter = (this && this.__awaiter) || function (thisArg, _arguments, P, ge
 };
 Object.defineProperty(exports, "__esModule", { value: true });
 const tl = require("azure-pipelines-task-lib/task");
-const runscopeRequirements = "https://gist.githubusercontent.com/ThiagoBarradas/c7c5e83f089108fdd3fad9f165f5aaa0/raw/c005c96fb4be5ff56ab6d458cf774338e7191838/runscope-requirements";
-const runscopeAppPython = "https://gist.githubusercontent.com/ThiagoBarradas/bc845ca918be6002a707819806c548fe/raw/6a6e7e4288c4b1537b2f9312d4348e7a5d26624e/runscope-app.py";
+const runscopeRequirements = "https://gist.githubusercontent.com/ThiagoBarradas/c7c5e83f089108fdd3fad9f165f5aaa0/raw";
+const runscopeAppPython = "https://gist.githubusercontent.com/ThiagoBarradas/bc845ca918be6002a707819806c548fe/raw";
 function run() {
     return __awaiter(this, void 0, void 0, function* () {
         try {
